@@ -1,0 +1,49 @@
+p {
+    font-family: Amarante;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.thumbnail {
+    display: inline-block;
+    width: 450px;
+}
+.text {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 5;
+}
+.views {
+    font-size: 15px;
+    color: rgb(96, 96, 96);  
+    margin-bottom: 10;
+}
+.name {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 30;
+}
+.hiperlink {
+    font-family: Belgrano;
+    font-size: 16px;
+    background-color: rgb(56, 177, 141);
+    color: white;
+    text-align: center;
+}
+.hiper {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+      
+}
+.hiper:hover {
+    text-decoration: underline;
+}
+#image {
+    width: 400px;
+    display: block;
+ }
+.search {
+    font-size: 16px;
+    margin: 15px;
+}

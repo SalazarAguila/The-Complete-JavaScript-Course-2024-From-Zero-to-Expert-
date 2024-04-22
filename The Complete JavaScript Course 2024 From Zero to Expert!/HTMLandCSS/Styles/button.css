@@ -1,0 +1,62 @@
+.subscribe {
+    background-color: rgb(200,0,0);
+    color: white;
+    border: none;
+    /* BETTER TO USE THE CSS BOX MODELS
+    height: 34px;
+    width: 103px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.subscribe:hover {
+    opacity: 0.7;
+}
+.subscribe:active {
+    opacity: 0.5;
+}
+.join {
+    background-color: rgb(255, 255, 255);
+    color: rgb(42, 115, 199);
+    border-color: rgb(42, 115, 199);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.2s, color 0.2s;
+    vertical-align: top;
+}
+.join:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 115, 199);
+}
+.join:active {
+    opacity: 0.7;
+}
+.tweet {
+    background-color: rgb(59, 149, 209);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 34px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: hover 1s;
+    vertical-align: top;
+}
+.tweet:hover {
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.15);
+}
